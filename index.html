@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Let's make a parfect body</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"＞
+    <link rel="shortcut icon" href="images/Pectoralis.jpg" >
+    <!-- <script src="js/jquery-3.4.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/hello.js"></script>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="#">My Training</a>
+          </h1>
+          <nav class="global-nav">
+            <ul>
+              <li class="nav-item"><a href="#" target="_blank">HOME</a></li>
+              <li class="nav-item"><a href="#" target="_blank">Pectoralis</a></li>
+              <li class="nav-item"><a href="#" target="_blank">Back</a></li>
+              <li class="nav-item"><a href="#" target="_blank">Deltoid</a></li>
+              <li class="nav-item"><a href="#" target="_blank">Brachialis</a></li>
+              <li class="nav-item"><a href="#" target="_blank">Abdominals</a></li>
+              <li class="nav-item"><a href="#" target="_blank">Regs</a></li>
+            </ul>
+          </nav>
+       </div>
+    </header>
+
+    <div class="training-wrapper">
+      <div class="container">
+        <div class="main-menu">
+          <div class="main-logo">
+            <h1><span><i class="fas fa-clipboard-list"></i></span> Training Menu</h1>
+          </div>
+          <div class="trainings">
+            <div class="training">
+              <a href="#" target="_blank"><img src="images/pectoralis.jpg" alt="pectoralis"></a>
+              <p>Pectoralis</p>
+            </div>
+            <div class="training">
+              <a href="#" target="_blank"><img src="images/back.jpg" alt="back"></a>
+              <p>Back</p>
+            </div>
+            <div class="training">
+              <a href="#" target="_blank"><img src="images/deltoid.png" alt="deltoid"></a>
+              <p>Deltoid</p>
+            </div>
+            <div class="training">
+              <a href="#" target="_blank"><img src="images/brachialis.jpg" alt="brachialis"></a>
+              <p>Brachialis</p>
+            </div>
+            <div class="training">
+              <a href="#" target="_blank"><img src="images/abdominals.jpg" alt="abdominals"></a>
+              <p>Abdominals</p>
+            </div>
+            <div class="training">
+              <a href="#" target="_blank"><img src="images/regs.jpg" alt="regs"></a>
+              <p>Regs</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="side-menu">
+            <a href="https://www.youtube.com/" target="_blank"><h1><span><i class="fab fa-youtube"></i></span> Youtuber</h1></a>
+           <div class="side-lists">
+             <div class="side-list">
+               <a href="https://www.youtube.com/channel/UCIR8bP-MIXHwTPkUjcnjBCw" target="_blank"><img src="images/shofitness.jpg" alt=""><p>Sho Fitness</p></a>
+             </div>
+             <div class="side-list">
+               <a href="https://www.youtube.com/channel/UCuhPVNbY5AATKsU5RSEhbCQ" target="_blank"><img src="images/yamasawa.jpg" alt=""><p>山澤礼明</p></a>
+             </div>
+             <div class="side-list">
+               <a href="https://www.youtube.com/channel/UClVxlTdjXCH02L9WtiPu_rg" target="_blank"><img src="images/kanekin.jpg" alt=""><p>Kanekin Fitness</p></a>
+             </div>
+             <div class="side-list">
+               <a href="https://www.youtube.com/channel/UCZWyZ5L_MVBCcB8vmkspb8A" target="_blank"><img src="images/metron.jpg" alt=""><p>メトロン</p></a>
+             </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="health-wrapper">
+      <div class="container">
+        <div class="health-logo">
+          <h1><span><i class="fas fa-notes-medical"></i></span> Health Knowledge</h1>
+        </div>
+        <div class="area-wrapper">
+          <a href="https://yuchrszk.blogspot.com/" target=_blank><img src="images/paleo.jpg" alt="paleo"></a>
+          <br>
+          <h2>Mr.Paleo</h2>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Copyright &copy; 2019, Tetsu</p>
+      </div>
+    </footer>
+    <script>
+      $('div.health-wrapper').click(function(){
+        for(i=0;i<3;i++) {
+          hello();
+        }
+      });
+    </script>
+  </body>
+
+</html>
